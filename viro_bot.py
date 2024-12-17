@@ -16,7 +16,7 @@ names_dict = {
 
 # Функция для обработки команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text('Привет! Этот бот поможет узнать тебе твоего методиста, напиши свою фамилию, имя и отчество в иминительном падеже. Напимер: Иванов Иван Иванович')
+    await update.message.reply_text('Привет! Этот бот поможет узнать тебе твоего методиста, напиши свою фамилию, имя и отчество в иминительном падеже. Напимер: Иванов Иван Иванович, и мы найдем твоего методиста!')
 
 # Функция для обработки текста и проверки на имя
 async def check_name(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
