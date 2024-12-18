@@ -5,7 +5,7 @@ from telegram.ext import (
 )
 
 # Вставь сюда твой API токен
-API_TOKEN = '8171150906:AAE_1Oncau2Lk7kvB7qA7N9LZy_k7HxwyCo'
+API_TOKEN = '8171150906:AAFDENGC-PcFoWAsqP4J7v9YN7R4qXdkFRU'
 
 # Словарь с именами и их значениями
 names_dict = {
